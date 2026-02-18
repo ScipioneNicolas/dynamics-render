@@ -1,9 +1,8 @@
-import { LayoutDashboard, FileText, Terminal, Zap } from "lucide-react";
+import { FileText, Terminal, Zap } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { to: "/", icon: LayoutDashboard, label: "Dashboard" },
   { to: "/formularios", icon: FileText, label: "Formularios" },
   { to: "/logs", icon: Terminal, label: "Logs" },
 ];
